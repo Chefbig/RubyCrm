@@ -1,0 +1,14 @@
+<div class="container">
+<% @customers.each do |customer| %>
+    <div class="customer">
+
+      <div><strong><%= customer.full_name %></strong></div>
+      <div class="image"><%= image_tag customer.image.to_s,  height:"320" %></div>
+      <div><strong>Province: </strong><%= customer.full_name %></div>
+      <div><%= customer.phone %></div>
+      <div><%= customer.email %></div>
+    </div>
+
+<% end %>
+
+</div>

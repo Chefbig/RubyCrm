@@ -1,0 +1,33 @@
+// Place all the styles related to the customers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.image{
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.customer{
+  margin: 0px 0px 0px 0px;
+  font-size: large;
+  display: inline-block;
+  padding: 10px;
+  height: 500px;
+  width: 20%;
+  align-content: center;
+  border: solid;
+
+};
+
+.container{
+  padding: 0px;
+  width: 100%;
+  display: inline-block;
+}
+
+div{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
