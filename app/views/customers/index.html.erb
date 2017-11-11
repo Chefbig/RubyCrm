@@ -1,5 +1,11 @@
 <h1>All Customers</h1>
+<div class="container">
+  <% @customers.each do |customer| %>
+      <%= render partial: "customer" , object:customer %>
 
-<%= render "customers" %>
+  <% end %>
+
+</div>
+
 
 
